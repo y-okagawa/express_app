@@ -1,8 +1,7 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+#salary_input_table {
+    overflow-x: scroll;
 }
 
-a {
-  color: #00B7FF;
+#salary_input_table thead th {
+    text-align: center;
 }

@@ -39,7 +39,7 @@ constructor(props) {
 
   render() {
     return (
-      <table className="table table-bordered table-striped">
+      <table className="table is-bordered">
         <thead>
           <tr>
             <th>No</th>

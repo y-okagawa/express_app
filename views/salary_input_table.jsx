@@ -7,12 +7,9 @@ let salaryInputTablePage = React.createClass({
   render() {
     return (
       <DefaultLayout title={this.props.title}>
-        <div id="salary_input_table">
-          ReactDOMServer.renderToString(<SalaryInputTable />)
-        </div>
+          <SalaryInputTable />
       </DefaultLayout>
     );
   }
 });
-
 module.exports = salaryInputTablePage;
